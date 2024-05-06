@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    transition: 0.4s ease-in-out;
+}
+
+
+header {
+
+    padding: 32px 0 14px;
+    max-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+nav ul li {
+    
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 14px;
+    color: #333;
+    text-transform: uppercase;
+
+}
+
+nav ul li:hover {
+    color: #0A775F;
+    transform: scale(1.3);
+}
+
+
+.showcase {
+    display: flex;
+    gap: 5%;
+    margin-top: 130px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+    padding: 16px;
+    border-radius: 64px;
+    border: solid 1px transparent;
+    color: #ffffff;
+}
+
+.showcase>div {
+    flex: 1;
+    max-width: 50%;
+}
+
+.showcase>.showcase-right img:nth-child(2) {
+    width: 100%;
+}
+
+.showcase-right {
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 700;
+}
+
+.showcase p {
+    line-height: 24px;
+    padding: 20px 0;
+    color: #9E9AA8;
+}
+
+.showcase button {
+    color: #fff;
+    background: #2BD0D0;
+    padding: 16px 24px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.showcase button:hover {
+    background: transparent;
+    border: 1px solid #ff0000;
+    color: #0A775F;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.nav-img {
+    display: flex;
+}
+
+.form-wrapper {
+    transform: translateY(+50%);
+    display: flex;
+    width: 100%;
+    padding: 15px 0 36px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 50%;
+    padding: 37px 29px 58px 72px;
+    height: 100%;
+    flex-direction: column;
+    gap: 51px;
+    color: #fff;
+    background: url(/assets/images/Path\ 2.png);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    background: #fff;
+    margin-top: 21px;
+    height: 64px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-button button {
+    width: 188px;
+    height: 64px;
+    background-color: #2BD0D0;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.id {
+
+    background-color: #543030;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.id button {
+    padding: 16px;
+    border-radius: 23px;
+    border: 1px solid transparent;
+    background: #2BD0D0;
+    color: #fff;
+}
+
+.showcase {
+    gap: 100px;
+}
+
+.footer-right img {
+    width: 32px;
+}
+
+.jurat {
+    background: #232127;
+    padding: 170px 0 68px 0 53px ;
+}
+
+.footer-left ul li {
+    color: #fff;
+}
+
+
+
+.footer-right {
+    padding: 24px;
+}
+
+.footer-left ul{
+    display: flex;
+}
